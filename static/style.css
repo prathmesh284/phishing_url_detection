@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    /*background-image: url('background.jpg');*/
+    background-size: cover;
+    background-color: #191818;
+    background-attachment: fixed;
+    color: #0101031b;
+    margin: 0;
+    padding: 0;
+    border-left: 1px solid #241d31;
+    border-right: 1px solid #241d31;
+    border-top: 1px solid #241d31;
+    border-bottom: 1px solid #241d31;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header, footer {
+    background-color: rgba(23, 10, 76, 0.4);
+    color: white;
+    text-align: center;
+    padding: 15px 0; /* Broader padding */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    background-color: rgba(23, 10, 76, 0.6);
+    padding: 15px 0; /* Increased padding for broader navigation bar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #f0e68c;
+}
+
+.container {
+    width: 500px;
+    margin: auto;
+    padding: 30px;
+    background-color: rgba(70, 130, 180, 0.8); /* Blueish color with 0.8 transparency */
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    color: white; /* White text color for better readability */
+    text-align: center; /* Center text inside the container */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container2{
+    align-self: center;
+    width: 500px;
+    color: rgb(232, 238, 238 ,08);
+    background:rgba(70, 130, 180, 0.8);
+    text-align: center;
+    border: #ece7e7;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 20px;
+    color: #000;
+    text-decoration: solid;
+}
+.button1{
+    background-color: #333;
+    height: 40px;
+    width: 100px;
+    border-radius: 8px;
+    font-size: medium;
+    color: white;
+    align-self: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border: none; /* Remove border for button */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+#url-form {
+    width: 100%;
+}
+
+#url-form input, #url-form button {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* Ensures padding does not affect the width */
+}
+
+#url-form button {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border: none; /* Remove border for button */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#url-form button:hover {
+    background-color: #555;
+}
+
+footer p {
+    margin: 0;
+}

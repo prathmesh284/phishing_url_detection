@@ -1,0 +1,6 @@
+Examples of Urls for Demo-
+
+1.https://www.google.com -- Safe
+2.http://www.google.com  -- Suspicious
+3.https://www.onlinesbi.sbi --Safe
+4.http://bankarabe.com --Suspicious(Verified by phishtank)
